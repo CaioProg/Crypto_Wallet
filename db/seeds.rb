@@ -26,5 +26,4 @@ Coin.create!(
 
 
 
-
 puts "Moedas cadastradas com sucesso!"
