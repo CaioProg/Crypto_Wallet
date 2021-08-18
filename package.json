@@ -2,14 +2,20 @@
   "name": "crypto_wallet",
   "private": true,
   "dependencies": {
+    "@rails/webpacker": "5.4.0",
     "bootstrap": "^5.1.0",
     "jquery": "^3.6.0",
     "notify-js-legacy": "^0.4.1",
-    "popper.js": "^1.16.1"
+    "popper.js": "^1.16.1",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
   },
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/CaioProg/Crypto_Wallet.git",
   "author": "Caio Lucas <caioprog18@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.2"
+  }
 }
